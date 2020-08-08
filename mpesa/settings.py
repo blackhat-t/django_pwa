@@ -24,18 +24,18 @@ TEMPLATES_DIRS = os.path.join(BASE_DIR,'templates')
 SECRET_KEY = 'rktkq8=ym*_imp#shqa%sje!)s3ogqfe(415godefss(tkj^hp'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# DEBUG = True
 
-# DEBUG = False
-# ALLOWED_HOSTS = ['35.209.156.107', 'www.mpesacards.xyz']
-# CSRF_COOKIE_SECURE = True
-# CSRF_COOKIE_HTTPONLY = True
-# SECURE_HSTS_SECONDS = 31536000
-# SECURE_HSTS_PRELOAD = True
-# SECURE_HSTS_INCLUDE_SUBDOMAINS = True
-# SECURE_REFERRER_POLICY = 'same-origin'
-# SECURE_SSL_REDIRECT = True
-# SESSION_COOKIE_SECURE = True
+DEBUG = False
+ALLOWED_HOSTS = ['35.209.156.107', 'www.mpesacards.xyz']
+CSRF_COOKIE_SECURE = True
+CSRF_COOKIE_HTTPONLY = True
+SECURE_HSTS_SECONDS = 31536000
+SECURE_HSTS_PRELOAD = True
+SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+SECURE_REFERRER_POLICY = 'same-origin'
+SECURE_SSL_REDIRECT = True
+SESSION_COOKIE_SECURE = True
 
 
 # Application definition
