@@ -21,13 +21,13 @@ TEMPLATES_DIRS = os.path.join(BASE_DIR,'templates')
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'rktkq8=ym*_imp#shqa%sje!)s3ogqfe(415godefss(tkj^hp'
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = True
 
 DEBUG = False
-ALLOWED_HOSTS = ['35.209.156.107', 'www.mpesacards.xyz']
+
 CSRF_COOKIE_SECURE = True
 CSRF_COOKIE_HTTPONLY = True
 SECURE_HSTS_SECONDS = 31536000
@@ -141,13 +141,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-# user config
-#message bird
-ACCESS_KEY = "QNCPCuNIesh4LJOobdixnA47c"
 
-#mpesa
-CONSUMER_KEY =  "349NZ897ZxADzzrRomeCNMe6k5eAQHed"
-CONSUMER_SECRET =  "x45dSjgDGGs1xL9l",
-PASS_KEY =  "bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919",
-PAYBILL = "174379",
-SHORT_CODE =  "CustomerPayBillOnline"
